@@ -1,0 +1,12 @@
+entryPoints:
+  web:
+    address: ":80"
+  websecure:
+    address: ":443"
+  dashboard:
+    address: ":8080"
+
+# Activer l'API et le tableau de bord de Traefik
+api:
+  dashboard: true       # Activer le tableau de bord
+  insecure: true 

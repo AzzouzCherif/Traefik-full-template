@@ -1,0 +1,15 @@
+dependencies:
+- name: backend
+  repository: file://charts/backend
+  version: 0.1.0
+- name: frontend
+  repository: file://charts/frontend
+  version: 0.1.0
+- name: db
+  repository: file://charts/db
+  version: 0.1.0
+- name: mailcatcher
+  repository: file://charts/mailcatcher
+  version: 0.1.0
+digest: sha256:5b0d441aa58746d46f168346da741183a4ea489fba44897c618b7d42bc1fc71e
+generated: "2024-11-11T18:50:15.708712+01:00"

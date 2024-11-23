@@ -1,0 +1,15 @@
+replicas: 1
+image:
+  repository: azzouz953/backend
+  pullPolicy: IfNotPresent
+  tag: latest
+
+app:
+  projectName: "Full Stack FastAPI Project"
+  firstSuperuser: "admin@example.com"
+  firstSuperuserPassword: "changethis"
+
+postgres:
+  user: "postgres"
+  password: "bodologo"
+  database: "app"

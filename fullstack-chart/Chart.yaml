@@ -1,0 +1,23 @@
+apiVersion: v2
+name: fullstack-chart
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+
+dependencies:
+  - name: backend
+    version: "0.1.0"
+    repository: "file://charts/backend"
+  - name: frontend
+    version: "0.1.0"
+    repository: "file://charts/frontend"
+  - name: db
+    version: "0.1.0"
+    repository: "file://charts/db"
+  - name: mailcatcher
+    version: "0.1.0"
+    repository: "file://charts/mailcatcher"
+  - name: adminer
+    version: "0.1.0"
+    repository: "file://charts/adminer"
