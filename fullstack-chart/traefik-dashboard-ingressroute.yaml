@@ -5,11 +5,12 @@ metadata:
   namespace: kube-system
 spec:
   entryPoints:
-    - traefik
+    - web
   routes:
   - match: Host(`traefik.local`)
     kind: Rule
     services:
     - name: api@internal
       kind: TraefikService
+
 

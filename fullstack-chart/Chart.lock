@@ -11,5 +11,8 @@ dependencies:
 - name: mailcatcher
   repository: file://charts/mailcatcher
   version: 0.1.0
-digest: sha256:5b0d441aa58746d46f168346da741183a4ea489fba44897c618b7d42bc1fc71e
-generated: "2024-11-11T18:50:15.708712+01:00"
+- name: adminer
+  repository: file://charts/adminer
+  version: 0.1.0
+digest: sha256:063164a8588c179b46c1adcf7fccea4cedb27a49a34a7130c55c40e8af2b76e5
+generated: "2024-11-23T15:56:27.916372+01:00"
